@@ -4,7 +4,6 @@ import {
   Geographies,
   Geography,
   Annotation,
-  ZoomableGroup,
 } from 'react-simple-maps';
 
 const Map = () => {
@@ -14,7 +13,7 @@ const Map = () => {
       projectionConfig={{
         rotate: [-10.0, -52.0, 0],
         center: [-5, -3],
-        scale: 250,
+        scale: 180,
       }}
       style={{ width: '100%', height: '100%' }}
     >
